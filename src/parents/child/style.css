@@ -1,8 +1,8 @@
 .light{
-    background-color: rgb(211, 0, 0);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .dark{
-    background-color: rgb(92, 61, 61);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }

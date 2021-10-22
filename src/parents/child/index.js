@@ -15,12 +15,22 @@ function Child (){
 //              setcolor("dark"); 
 //     }
 // },[color])
+
+
+
+function foo(){
+    if(color=="light"){
+        setcolor("dark")
+    }else{
+        setcolor("light")
+    }
+}
     return(
         <div className={color}>
             <h1>Child</h1>
             <h1>{theme.name}</h1>
             <button onClick={()=>theme.setname("SHAHID WAZIR")}>update</button>
-            <button onClick={()=>color?"dark":setcolor("light")}>dark/light</button>
+            <button onClick={foo}>dark/light</button>
         </div>
     )
 }
